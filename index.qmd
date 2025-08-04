@@ -1,5 +1,5 @@
 ---
-title: "NOAA quarto simple with R"
+title: "Notes on ML"
 subtitle: "A simple Quarto webpage with a book layout"
 page-layout: full
 ---
@@ -8,6 +8,9 @@ This is a template for a simple Quarto website that looks like a "book". This is
 
 The GitHub Action installs R so you can have R code in your qmd or Rmd files. Note, you do not need to make changes to your Rmd files unless your need Quarto features like cross-references.
 
+[This is a span that has the class aside which places it in the margin without a footnote number.]{.aside}
+
+
 ## GitHub Set-up
 
 * Click the green "use template" button to make a repository with this content.  Make sure to make your repo public (since GitHub Pages doesn't work on private repos unless you have a paid account) and check box to include all the branches (so that you get the gh-pages branch).
@@ -15,6 +18,13 @@ The GitHub Action installs R so you can have R code in your qmd or Rmd files. No
 
 * Turn on GitHub Pages under Settings > Pages . You will set pages to be made from the gh-pages branch and root directory.
 <img width="540" alt="image" src="https://user-images.githubusercontent.com/2545978/196808262-3d2262be-b9b5-4897-bba5-fc2f056dd335.png">
+
+::: {.column-margin}
+We know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:
+
+$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
+:::
+
 
 * Turn on GitHub Actions under Settings > Actions > General
 <img width="719" alt="image" src="https://user-images.githubusercontent.com/2545978/196808404-0c075fcf-db03-4516-88dd-3143b9fca475.png">
